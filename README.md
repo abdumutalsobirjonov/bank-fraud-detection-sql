@@ -17,6 +17,8 @@ Raw data was cleaned and transformed using Python, then loaded into SQL Server a
 2. **Merchant revenue concentration** — High-Performers merchants make up 60% of all merchants but generate 75% of total revenue.
 3. **Fraud concentrated in high-revenue merchants** — High-Performers merchants account for only 60% of all merchants but are responsible for 85% of all flagged fraud transactions, suggesting revenue and fraud risk are strongly correlated.
 4. **Unexpected fraud pattern in low-spend customers** — Low-Performers customers average 9.88 fraud transactions per customer, higher than both Mid-Range (7.01) and High-Performers (7.57), suggesting low-spend accounts may be under-monitored relative to their actual risk.
+## Dashboard
+![Dashboard](dashboard.png) 
 
 ## Files
 - `customer_report.sql` — Customer-level RFM segmentation and fraud analysis
